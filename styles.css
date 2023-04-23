@@ -1,0 +1,99 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin: 20px auto;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  display: inline-block;
+  margin: 10px auto;
+  padding: 0 20px;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin: 6px auto 0;
+}
+
+p {
+  visibility: hidden;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 140px;
+  margin: 0;
+  line-height: 150px;
+}
+
+.player-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.icon-style {
+  --fa-border-padding: 17px 7px;
+  --fa-border-radius: 20%;
+  --fa-border-color: rgb(0, 0, 0);
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  width: 530px;
+  margin: 35px auto 0;
+}
+
+.sqr {
+  margin: -4px;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  border: 5px solid white;
+}
+
+.r0 {
+  border-top: none;
+}
+
+.r2 {
+  border-bottom: none;
+}
+
+.c0 {
+  border-left: none;
+}
+
+.c2 {
+  border-right: none;
+}
+
+.clicked {
+  visibility: visible;
+}
+
+.score {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 35px;
+}
+
+.X {
+  font-weight: 700;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.412);
+}
